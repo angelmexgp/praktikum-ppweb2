@@ -7,7 +7,7 @@
     $jari = 8;
     $luas = PHI * $jari * $jari;
     $kell = 2 * PHI * $jari;
-
+    //luas
     echo "Luas lingkaran dengan jari " .$jari. " : " .$luas;
     echo "<br>Kelilingnya : " .$kell;
 ?>
@@ -15,4 +15,5 @@
 <?php
     echo "Nama Database: " .DBNAME;
     echo "<br/>Lokasi Database: " .DBSERVER;
+
 ?>

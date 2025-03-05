@@ -17,6 +17,7 @@
     $ar_buah[2] = "kolak";
 
     //menampilkan seluruh buah dengan indexnya
+
     echo "<ul>";
     foreach ($ar_buah as $buah => $V) {
         echo "<li>buah index - " .$buah . " adalah " . $V . "</li>";
